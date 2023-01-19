@@ -1,0 +1,55 @@
+@media(max-width:768px){
+body{
+    background-image:url(../images/pattern-background-mobile.svg) ;
+   background-repeat: no-repeat;
+}
+
+   .card{
+    font-size: 10px;
+   width: 330px;
+   }
+
+   .card .illustration{
+    width: 330px;
+   }
+
+   .card .infos {
+    width: 300px;
+    padding: 15px;
+   }
+
+   .card .annual-plan .annual{
+    font-size: 15px;
+    padding: 1px;
+   }
+
+   .card .annual-plan{
+    padding: 10px;
+    padding-right: 60px;
+   }
+
+   .card .infos .info .music{
+    padding-right: 2px;
+   }
+}
+
+@media(max-width:320px){
+    .card{
+        font-size: 9px;
+        width: 290px;
+    }
+
+    .card .illustration{
+        width: 290px;
+       }
+    
+       .card .infos {
+        width: 260px;
+        padding: 15px;
+       }
+
+       .card .annual-plan{
+        font-size:10px ;
+        padding-right: 30px;
+        }
+}

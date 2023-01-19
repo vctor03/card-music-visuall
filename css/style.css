@@ -1,0 +1,108 @@
+body{
+   background-image: url(../images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-color: hsl(225, 100%, 94%);
+   width: 99%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    display: grid;
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card .infos h1{
+    color: hsl(223, 47%, 23%);
+font-weight: 900
+}
+
+.card .infos .texto{
+color: hsl(224, 6%, 61%);
+}
+
+.card .illustration{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+
+.card .infos{
+    padding: 20px;
+}
+.card .infos .info .music{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card .info{
+    display: flex;
+    align-items: center;
+    background-color: hsl(226, 100%, 97%);
+    border-radius: 12px;
+}
+
+.card .infos .info .change{
+    text-decoration: none;
+color: blue;
+}
+
+.card .infos .info .change:hover{
+    font-weight: 600;
+}
+
+.card .annual-plan{
+padding-right: 145px;
+}
+
+.card .annual{
+    margin-bottom: 2px;
+}
+
+.card .numero{
+    margin-top: 2px;
+}
+
+.card .annual-plan .annual{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card .infos .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px; 
+}
+
+.card .infos .buttons button{
+    padding: 20px;
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: blue;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px rgb(127, 127, 127);
+}
+
+.card .infos .buttons button:hover{
+    background-color: hsl(249, 80%, 64%);
+    font-size: 14px;
+}
+
+.card .infos .cancel-order{
+   color: hsl(224, 23%, 55%);
+   text-decoration: none;
+   padding-top: 10px;
+   align-self: center;
+}
+
+.card .infos .cancel-order:hover{
+   font-weight: 800;
+   color: black;
+}
