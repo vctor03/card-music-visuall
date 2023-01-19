@@ -1,8 +1,9 @@
 @media(max-width:768px){
-body{
+
+   body{
     background-image:url(../images/pattern-background-mobile.svg) ;
    background-repeat: no-repeat;
-}
+   }
 
    .card{
     font-size: 10px;
